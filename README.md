@@ -1,2 +1,3 @@
 # cppStudy
-A c++ repo for personal study
+A c++ repo for personal study.
+
