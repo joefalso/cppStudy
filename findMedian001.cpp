@@ -57,12 +57,12 @@ double findMedian(int number) {
 }
 
 int main() {
-    // Example usage:      18446744073709551615 , 4294967295
-    //long int inputNumber = 9223372036854775807; // Maximum value for a variable of type long long 9,223,372,036,854,775,807
-	int inputNumber = 4294967296;
-    std::cout << "Number: " << inputNumber << std::endl;
-    double median = findMedian(inputNumber);
-    std::cout << "Median: " << median << std::endl;
+	// Example usage:      18446744073709551615 , 4294967295
+	//long int inputNumber = 9223372036854775807; // Maximum value for a variable of type long long 9,223,372,036,854,775,807
+	int inputNumber = 429496729;
+	std::cout << "Number: " << inputNumber << std::endl;
+	double median = findMedian(inputNumber);
+	std::cout << "Median: " << median << std::endl;
 
     return 0;
 }
